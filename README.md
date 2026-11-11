@@ -17,26 +17,25 @@ Private financial, PAN, bank, turnover and personal-status details from the supp
 ## Project structure
 
 ```text
-dist/
-  index.html
-  robots.txt
-  sitemap.xml
-  assets/
-    styles.css
-    script.js
-    logo.svg
-    favicon.svg
-    images/
+index.html
+robots.txt
+sitemap.xml
+assets/
+  styles.css
+  script.js
+  logo.svg
+  favicon.svg
+  images/
 ```
 
-The site is buildless. `dist/` is the complete deployable website.
+The site is buildless. The repository root is the complete deployable website so Hostinger Git deployment can detect `index.html` directly.
 
 ## Local preview
 
 From the repository root:
 
 ```powershell
-python -m http.server 4173 --directory dist
+python -m http.server 4173
 ```
 
 Then open `http://localhost:4173`.
@@ -46,7 +45,7 @@ Then open `http://localhost:4173`.
 1. Open Hostinger hPanel.
 2. Go to Websites, select `meharfoundation.store`, then open File Manager.
 3. Open the domain's `public_html` directory.
-4. Upload the **contents** of `dist/` into `public_html` (not the `dist` folder itself).
+4. Upload the repository website files into `public_html`, or use Hostinger Git deployment from the `main` branch.
 5. Confirm `public_html/index.html` exists.
 6. Enable the free SSL certificate and force HTTPS in Hostinger.
 7. Verify the home page, phone, email, WhatsApp, mobile menu and enquiry form.

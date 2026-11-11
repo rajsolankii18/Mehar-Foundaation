@@ -8,8 +8,8 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DIST = ROOT / "dist"
-INDEX = DIST / "index.html"
+DIST = ROOT
+INDEX = ROOT / "index.html"
 
 
 class SiteParser(HTMLParser):
