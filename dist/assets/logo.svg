@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Mehar Foundation woven M mark</title>
+  <rect width="64" height="64" rx="4" fill="#d9a454"/>
+  <path d="M13 44V19l19 17 19-17v25" fill="none" stroke="#072725" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M13 19h12M39 19h12M13 50h38" fill="none" stroke="#072725" stroke-width="2"/>
+</svg>
